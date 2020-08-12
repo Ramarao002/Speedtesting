@@ -1,0 +1,31 @@
+{
+  "name": "speedtest-app",
+  "version": "0.2.0",
+  "description": "Speedtest App",
+  "private":true,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "deploy": "npm install && cd client && npm install && npm run build"
+  },
+  "author": "moranbw",
+  "license": "ISC",
+  "dependencies": {
+    "@polka/send-type": "^0.5.2",
+    "body-parser": "^1.19.0",
+    "network-speed": "^2.0.7",
+    "polka": "^0.5.2",
+    "public-ip": "^4.0.2",
+    "sirv": "^0.4.2",
+    "chalk": "^2.3.0",
+    "log-symbols": "^2.2.0",
+    "log-update": "^2.3.0",
+    "meow": "^5.0.0",
+    "ora": "^3.1.0",
+    "round-to": "^3.0.0",
+    "update-notifier": "^2.3.0",
+    "speedtest1": "npm:speedtest-net@^1.6.2",
+    "speedtest2": "npm:speedtest-net@^2.1.1"
+  }
+}
